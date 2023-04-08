@@ -1,9 +1,12 @@
 function init() {
   //add your javascript between these two lines of code
+  var input = document.getElementById('entryinput')
   var btn = document.getElementById('entrybutton')
   btn.addEventListener('click', btnClick)
+
   function btnClick() {
-    alert('Good!')
+    var content = input.value
+    alert(content)
   }
 }
 
