@@ -9,7 +9,8 @@ function init() {
     // var text
     // var content = input.value
     // text = alert(content)
-    console.log(center)
+    alert(center[1].textContent)
+    alert(center[2].textContent)
   }
 }
 
