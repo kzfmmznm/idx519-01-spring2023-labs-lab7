@@ -6,11 +6,10 @@ function init() {
   btn.addEventListener('click', btnClick)
 
   function btnClick() {
-    // var text
-    // var content = input.value
-    // text = alert(content)
-    alert(center[1].textContent)
-    alert(center[2].textContent)
+    var text
+    var content = input.value
+    text = center[1].textContent + ': ' + content
+    alert(text)
   }
 }
 
